@@ -58,13 +58,6 @@ Web-Technologies/
 ## 📈 Progress Tracking
 
 This repository will be continuously updated throughout the semester as I complete new labs, assignments, and projects.
-
-## 👨‍💻 Author
-
-**Linda Maria Gomes**
-Computer Science & Engineering (CSE)
-American International University-Bangladesh (AIUB)
-
 ---
 
 ⭐ This repository serves as a record of my learning journey in Web Technologies and Front-End Development.
