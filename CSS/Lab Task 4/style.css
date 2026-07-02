@@ -1,0 +1,146 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+    background: #f4f4f4;
+    color: #333;
+    line-height: 1.6;
+}
+
+.container {
+    max-width: 1000px;
+    margin: auto;
+    padding: 30px;
+}
+
+.header {
+    background: #bf3f1c;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+
+.nav-list {
+    list-style: none;
+    margin-top: 15px;
+}
+
+.nav-item {
+    display: inline-block;
+    margin: 0 15px;
+}
+
+.nav-item a {
+    color: white;
+    text-decoration: none;
+}
+
+.welcome {
+    background: #e85f29;
+    color: white;
+    text-align: center;
+    padding: 60px 20px;
+}
+
+button {
+    margin-top: 20px;
+    padding: 10px 20px;
+    border: none;
+    background: #003366;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #001f4d;
+}
+
+.departments {
+    text-align: center;
+}
+
+.department-item {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: white;
+    position: relative;
+}
+
+.badge {
+    position: absolute;
+    top: -10px;
+    right: -10px;
+    background: red;
+    color: white;
+    padding: 5px 10px;
+    border-radius: 5px;
+}
+
+.notices {
+    text-align: center;
+}
+
+.notice-item {
+    display: inline-block;
+    width: 250px;
+    margin: 15px;
+    padding: 20px;
+    border: 2px solid gray;
+    border-radius: 10px;
+    background: white;
+    position: relative;
+}
+
+.campus {
+    position: relative;
+    height: 220px;
+}
+
+.image-box {
+    width: 400px;
+    height: 180px;
+    background: lightgray;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.campus info {
+    position: absolute;
+    top: 120px;
+    left: 250px;
+    background: #003366;
+    color: white;
+    padding: 15px;
+    z-index: 2;
+}
+
+.contact-btn {
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    background: blueviolet;
+    color: white;
+    text-decoration: none;
+    padding: 12px 18px;
+    border-radius: 5px;
+}
+
+footer {
+    background: #a82929;
+    color: white;
+    text-align: center;
+    padding: 20px;
+    margin-top: 40px;
+}
