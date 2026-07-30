@@ -1,0 +1,243 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background: linear-gradient(135deg, #fff3e0, #ffe0b2);
+    min-height: 100vh;
+    padding: 30px 15px;
+}
+
+
+.container {
+    width: 100%;
+    max-width: 850px;
+    margin: auto;
+    background-color: white;
+    padding: 30px;
+    border-radius: 15px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.15);
+}
+
+
+h1 {
+    text-align: center;
+    color: #8b4513;
+    margin-bottom: 5px;
+}
+
+.subtitle {
+    text-align: center;
+    color: #777;
+    margin-bottom: 30px;
+}
+
+
+
+
+.form-section {
+    margin-bottom: 30px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 10px;
+    background-color: #fffaf5;
+}
+
+.form-section h2 {
+    color: #8b4513;
+    margin-bottom: 20px;
+    border-bottom: 2px solid #d2691e;
+    padding-bottom: 8px;
+}
+
+
+.form-group {
+    margin-bottom: 18px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    margin-bottom: 7px;
+    color: #333;
+}
+
+
+
+input[type="text"],
+input[type="email"],
+input[type="number"],
+select,
+textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #bbb;
+    border-radius: 7px;
+    font-size: 15px;
+    outline: none;
+    transition: 0.3s;
+}
+
+input[type="text"]:focus,
+input[type="email"]:focus,
+input[type="number"]:focus,
+select:focus,
+textarea:focus {
+    border-color: #d2691e;
+    box-shadow: 0 0 5px rgba(210, 105, 30, 0.4);
+}
+
+textarea {
+    resize: vertical;
+}
+
+.radio-group {
+    display: flex;
+    gap: 30px;
+}
+
+.radio-group label {
+    font-weight: normal;
+    display: flex;
+    align-items: center;
+    gap: 5px;
+}
+
+.instruction {
+    margin-bottom: 15px;
+    color: #555;
+}
+
+.food-container {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 15px;
+    margin-bottom: 10px;
+}
+
+.food-item {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    background-color: white;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.food-item:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+    border-color: #d2691e;
+}
+
+.food-item input {
+    width: 18px;
+    height: 18px;
+}
+
+.food-name {
+    flex: 1;
+    font-weight: bold;
+}
+
+.price {
+    color: #d2691e;
+    font-weight: bold;
+}
+
+.error {
+    display: block;
+    color: red;
+    font-size: 13px;
+    margin-top: 5px;
+    min-height: 16px;
+}
+
+.order-btn {
+    display: block;
+    width: 100%;
+    padding: 14px;
+    border: none;
+    border-radius: 8px;
+    background-color: #8b4513;
+    color: white;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.order-btn:hover {
+    background-color: #d2691e;
+    transform: translateY(-2px);
+}
+
+
+.result {
+    margin-top: 30px;
+    padding: 25px;
+    border-radius: 10px;
+    background-color: #f1f8e9;
+    border: 2px solid #66bb6a;
+}
+
+.result h2 {
+    color: #2e7d32;
+    margin-bottom: 15px;
+}
+
+.result p {
+    margin: 8px 0;
+}
+
+.result ul {
+    margin: 10px 0 10px 25px;
+}
+
+.success {
+    color: #2e7d32;
+    font-weight: bold;
+    font-size: 18px;
+    margin-bottom: 15px;
+}
+
+.total {
+    font-size: 20px;
+    font-weight: bold;
+    color: #8b4513;
+    margin-top: 15px;
+}
+
+.hidden {
+    display: none;
+}
+
+@media (max-width: 600px) {
+
+    body {
+        padding: 15px 10px;
+    }
+
+    .container {
+        padding: 20px;
+    }
+
+    .food-container {
+        grid-template-columns: 1fr;
+    }
+
+    .radio-group {
+        flex-direction: column;
+        gap: 10px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+}
